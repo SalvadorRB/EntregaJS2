@@ -121,11 +121,11 @@ const error = (message) => {
 const render = (pizza) => {
     const { nombre, precio } = pizza;
     h2.innerHTML = `<span class= "small">Usted eligió: </span>${nombre}`;
-    h4.innerHTML = `<span class= "small">El precio es de: </span>${precio}`;
+    h3.innerHTML = `<span class= "small">El precio es de: </span>${precio}`;
 }
 
 
 const reset = () => {
     h2.innerHTML = "";
-    h4.innerHTML = "";
+    h3.innerHTML = "";
 };
